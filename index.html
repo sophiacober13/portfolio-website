@@ -3,7 +3,9 @@
   <head>
     <meta charset="UFT-8">
     <title>Sophia Cober - Sisyphean Perseverance</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Beau+Rivage&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sekuya&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/zapfino" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/aqf8hsk.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,6 +40,14 @@
       font-family: "itc-american-typewriter", serif;
       font-weight: 500;
       font-style: normal;
+    }
+    
+    .cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 1;
+  font-style: normal;
+
     }
 
     .nav {
@@ -164,18 +174,47 @@
       
     }
     
-    .border {
+    .about {
+        position: relative;
+    }
+    
+    .about-text {
       display: grid;
+    position: absolute;
       grid-template-columns: 100%;
+      grid-template-rows: 15% 75%;
+      width: 50%;
+      height: 90%;
+      margin-left: 50%;
+      top: 207;
     
-      margin-left: 0px;
-      
     }
-    
-    .border-grid {
    
-      
+    
+    
+    
+    .author-grid .cinzel {
+      display: block; 
+      color: white;
+       text-align: right;
+      font-size: 50px;
+      margin-right: 60px;
     }
+    .author-grid .zapfino {
+        display: block; 
+      font-size: 72px;
+      margin-right: 60px;
+      text-align: right;
+
+      color: white;
+    }
+    
+    .text-grid {
+        display: block; 
+  
+      margin-right: 60px;
+    }
+    
   </style>
 
   <body>
@@ -220,11 +259,29 @@
 <img src="border.png" width="100%">
         
       </div>
-    </div>
-    
+      
+      <div class="about">
+      <img src="about-background.png" width="100%">
+ 
+    <div class="about-text" >
+      
    
+  
+     <div class="author-grid">
+       <h1>
+         <span class="cinzel"> XII-XX-MMVII </span> <br>
+         <span class="zapfino">The Author</span>
+       </h1>
+     <!--About--> 
+        </div>
+    
+     <div class="text-grid">
+     <!--About--> 
+     </div>
+    </div>
+                     </div>
       </body>
 
       
-    
+   
 </html>
