@@ -1,64 +1,91 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="eng-CA">
   <head>
     <meta charset="UFT-8">
     <title>Sophia Cober - Sisyphean Perseverance</title>
-    
-    
+
+    <link href="https://fonts.cdnfonts.com/css/zapfino" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/aqf8hsk.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Beau+Rivage&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sekuya&display=swap" rel="stylesheet">
   </head>
-  
-  
-  <style> 
-  
-      body {
+
+
+  <style>
+    body {
       width: 1200px;
       margin-right: 120px;
       margin-left: 120px;
       background-color: black;
       font-size: 16px;
     }
+
+    .zapfino {
+      font-family: "Zapfino", serif;
+    }
     
+    .magazine {
+     
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+
+    }
+
+    .typefont {
+      font-family: "itc-american-typewriter", serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+
     .nav {
+      font-family: "itc-american-typewriter", serif;
+      font-weight: 500;
+      font-style: normal;
       width: 100%;
       display: flex;
       background-color: #46260e;
       align-items: center;
     }
+
     .nav ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-    color: white;  
+      list-style-type: none;
+      margin: 10px;
+      padding: 0;
+      color: white;
     }
-    
+
     .nav li {
       display: inline-block;
       padding-right: 40px;
-      
+
     }
+
     .nav img {
       width: 150px;
       background-color: #46260e;
     }
-    
-   
-  
+
+
+
     .hero {
       display: grid;
-        grid-template-columns: 100%;
-        width: 100%; 
-        margin: 0 auto;
-        gap: 10px;
+      grid-template-columns: 100%;
+      width: 100%;
+      margin: 0 auto;
+      gap: 10px;
+      position: relative;
     }
-    .hero img{
+
+    .hero img {
       width: 1200px;
       height: 742.5px;
 
     }
-    
-    .hero h1 {
-      
-    }
+
+
     .hero-typewriter-type {
       display: grid;
       position: absolute;
@@ -66,71 +93,111 @@
       width: 470px;
       height: 300px;
       margin-left: 215px;
-    
+
+
     }
+
     .grid-typewriter {
       position: relative;
       font-family: sans-serif;
       color: #46260e;
-      margin-top: 75px;
-      font-size: 45px;
-      
-       
+      line-height: 2.5em;
+      margin-top: 110px;
+      font-size: 35px;
+
+
     }
-    
+
     #hero-soph {
       padding-left: 55px;
-      
-      
+
+
+
     }
+
     #hero-cober {
+      display: block;
+      margin-top: 20px;
       padding-left: 170px;
-      
-      
-    
+
+
+
     }
-    
+
     .hero-beside-type {
       display: grid;
+      margin-right: 0;
       grid-template-columns: 100%;
+      position: absolute;
+    }
+
+    .hero-beside-grid {
+      color: #46260e;
+      line-height: 3.5em;
+      margin-top: 270px;
+    
     }
     
-    
-
-    
-    
-  </style>
-  
-<body>
-
-  <div class="nav">
-    <img src="logo.png">
-  <ul>
-    <li>
-      Home
-    </li>
-    <li>About
-    </li>
-    <li> Graphic Design </li>
-    <li> Videography</li> 
-    <li> Contact </li>
-    
-  </ul>
-  
-  </div>
-  
-  <div class="hero">
-  <img src="hero-background.png"> 
-    <div class="hero-typewriter-type">
+    .hero-beside-grid .zapfino {
+    padding-left: 820px;
+      font-size: 50px;
       
-      <div class="grid-typewriter">
-        <h1><span id="hero-soph">Sophia</span> <br> <span id="hero-cober"> Cober</span></h1>
+      
+    }
+    .hero-beside-grid .magazine {
+      display:inline-block;
+    padding-left: 935px;
+      font-size: 58px;
+      height: 3px;
+      line-height:0.85em;
+      transform: scaleY(1.75)
+      
+      
+    }
+    .hero-beside-grid .typefont {
+    padding-left: 870px;
+      line-height: 2.75em;
+      font-size: 90px;
+      
+      
+    }
+  </style>
+
+  <body>
+
+    <div class="nav">
+      <img src="logo.png">
+      <ul>
+        <li>
+          Home
+        </li>
+        <li>About
+        </li>
+        <li> Graphic Design </li>
+        <li> Videography</li>
+        <li> Contact </li>
+
+      </ul>
+
+    </div>
+
+    <div class="hero">
+      <img src="hero-background.png">
+      <div class="hero-typewriter-type">
+
+        <div class="grid-typewriter">
+          <h1><span id="hero-soph" class="Zapfino">Sophia</span> <br> <span id="hero-cober" class="Zapfino"> Cober</span></h1>
+        </div>
+      </div>
+      <div class="hero-beside-type">
+        <div class="hero-beside-grid">
+          <h1><span class="zapfino"> "Perseverant</span>
+            <br> <span class="magazine"> Story </span> <br> <span class="typefont"> Teller" </span>
+          </h1>
+        </div>
       </div>
     </div>
-    
-  </div>
-  
-  something to stand in for content
-  </body> 
-  
+<img src="border.png" width="100%" height>
+    <img src="about-background.png" width="100%" something to stand in for content </body>
+
 </html>
